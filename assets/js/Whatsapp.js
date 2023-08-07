@@ -8,7 +8,7 @@ var mensaje;
 
 function enviar() {
 
-    mensaje = `https://api.whatsapp.com/send?phone=240222392305&text=*Nombre:*%20${dameNombre.value}%0A*Direccion:*%20${dameDireccion.value}%0A*Telefono:*%20${dameTelefono.value}%0A%0A*Mensaje:*%20${dameMensaje.value}`;
+    mensaje = `https://api.whatsapp.com/send?phone=240222392305&text=*Nombre:*%20${dameNombre.value}%0A*Direccion:*%20${dameDireccion.value}%0A*Telefono:*%20${dameTelefono.value}%20%0A%0A*Mensaje:*%20${dameMensaje.value}`;
     botonEnviar.href = mensaje;
 
 }
