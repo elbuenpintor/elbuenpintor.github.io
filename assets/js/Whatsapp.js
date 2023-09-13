@@ -2,7 +2,7 @@ const dameNombre = document.querySelector('#name-2');
 const dameDireccion= document.querySelector('#name-4');
 const dameTelefono= document.querySelector('#email-2');
 const dameMensaje= document.querySelector('#message-2');
-const dameBoton= document.querySelector('#sendMessageButton');
+const dameBoton= document.querySelector('#btenviar');
 
 var mensaje;
 
